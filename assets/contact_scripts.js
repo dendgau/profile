@@ -1,11 +1,3 @@
-/*
- Author: Ukieweb
- Template: ukieCard
- Version: 1.8.1
- URL: http://themeforest.net/user/UkieWeb
- */
-
-
 $(document).ready(function () {
 
     "use strict";
@@ -191,27 +183,3 @@ $(document).ready(function () {
 
 }); // End $(document).ready(function(){
 
-/*
- ----------------------------------------------------------------------
- Map
- ----------------------------------------------------------------------
- */
-
-
-var map;
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 39.987686, lng: -82.970916},
-        zoom: 8,
-        scrollwheel: false
-    });
-
-    var image = './assets/img/marker-' + $('#stylesheet-new').attr('data-color') + '.png';
-    var beachMarker = new google.maps.Marker({
-        position: {lat: 39.987686, lng: -82.970916},
-        map: map,
-        title: 'UkieWeb',
-        icon: image
-    });
-
-}

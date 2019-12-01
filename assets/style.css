@@ -1,34 +1,3 @@
-/* ==============================================
-
-Template: ukieCard
-Version: 1.8.1
-Author:	Ukieweb
-
-    - General setting
-    - Menu-navigation
-    - Home header
-    - Menu section
-    - Footer section
-    - Home section
-    - Content
-    - Skills section
-    - Portfolio
-    - Contact
-    - Info
-    - Profile
-    - Pricing
-    - Instagram Feed
-    - My thoughts
-    - Total numbers
-    - Animationload
-    - Animated setting
-    - Calendar
-
-================================================ */
-
-/* ------------------
-    General setting
---------------------*/
 *{
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-weight: 300;

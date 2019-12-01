@@ -1,11 +1,3 @@
-/*
- Author: Ukieweb
- Template: ukieCard
- Version: 1.8.1
- URL: http://themeforest.net/user/UkieWeb
- */
-
-
 $(document).ready(function(){
 
     "use strict";
@@ -20,7 +12,6 @@ $(document).ready(function(){
     $('#portfolio-grid').mixItUp();
 
     $('#portfolio-grid').on('mixEnd', function(e, state){
-        console.log("event mixEnd activeFilter="+state.activeFilter);
         $(".fancybox").attr("rel", "");
         $(state.activeFilter+" a").attr("rel", "visiblegallery");
     });
